@@ -1,0 +1,7 @@
+{
+  "name": "BelgrainsMobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
