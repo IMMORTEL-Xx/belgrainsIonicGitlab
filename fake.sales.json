@@ -1,0 +1,308 @@
+{
+  "salesJson": [
+
+    {
+      "saleId": "1",
+      "orderDate": "2022-02-21",
+      "deliveryDate": null,
+      "orderStatus": "en attente",
+      "customer": {
+        "customerId": "C41",
+        "name" : "Sylvain Fokan",
+        "customerType": {
+          "customerTypeId": "T1",
+          "name" : "Autres"
+        }
+      },
+      "totalPrice": 123,
+      "totalPriceWithVAT": 1234
+    },
+    {
+      "saleId": "2",
+      "orderDate": "2022-02-21",
+      "deliveryDate": null,
+      "orderStatus": "payée",
+      "customer": {
+        "customerId": "C41",
+        "name" : "Sylvain Fokan",
+        "customerType": {
+          "customerTypeId": "T1",
+          "name" : "Autres"
+        }
+      },
+      "totalPrice": 1234,
+      "totalPriceWithVAT": 12345
+    },
+    {
+      "saleId": "2",
+      "orderDate": "2022-02-21",
+      "deliveryDate": null,
+      "orderStatus": "payée",
+      "customer": {
+        "customerId": "C41",
+        "name" : "Sylvain Fokan",
+        "customerType": {
+          "customerTypeId": "T1",
+          "name" : "Autres"
+        }
+      },
+      "totalPrice": 1234,
+      "totalPriceWithVAT": 12345
+    },
+    {
+      "saleId": "2",
+      "orderDate": "2022-02-21",
+      "deliveryDate": null,
+      "orderStatus": "payée",
+      "customer": {
+        "customerId": "C41",
+        "name" : "Sylvain Fokan",
+        "customerType": {
+          "customerTypeId": "T1",
+          "name" : "Autres"
+        }
+      },
+      "totalPrice": 1234,
+      "totalPriceWithVAT": 12345
+    },
+    {
+      "saleId": "2",
+      "orderDate": "2022-02-21",
+      "deliveryDate": null,
+      "orderStatus": "payée",
+      "customer": {
+        "customerId": "C41",
+        "name" : "Sylvain Fokan",
+        "customerType": {
+          "customerTypeId": "T1",
+          "name" : "Autres"
+        }
+      },
+      "totalPrice": 1234,
+      "totalPriceWithVAT": 12345
+    },
+    {
+      "saleId": "2",
+      "orderDate": "2022-02-21",
+      "deliveryDate": null,
+      "orderStatus": "payée",
+      "customer": {
+        "customerId": "C41",
+        "name" : "Sylvain Fokan",
+        "customerType": {
+          "customerTypeId": "T1",
+          "name" : "Autres"
+        }
+      },
+      "totalPrice": 1234,
+      "totalPriceWithVAT": 12345
+    },
+    {
+      "saleId": "2",
+      "orderDate": "2022-02-21",
+      "deliveryDate": null,
+      "orderStatus": "payée",
+      "customer": {
+        "customerId": "C41",
+        "name" : "Sylvain Fokan",
+        "customerType": {
+          "customerTypeId": "T1",
+          "name" : "Autres"
+        }
+      },
+      "totalPrice": 1234,
+      "totalPriceWithVAT": 12345
+    },
+    {
+      "saleId": "2",
+      "orderDate": "2022-02-21",
+      "deliveryDate": null,
+      "orderStatus": "payée",
+      "customer": {
+        "customerId": "C41",
+        "name" : "Sylvain Fokan",
+        "customerType": {
+          "customerTypeId": "T1",
+          "name" : "Autres"
+        }
+      },
+      "totalPrice": 1234,
+      "totalPriceWithVAT": 12345
+    },
+    {
+      "saleId": "2",
+      "orderDate": "2022-02-21",
+      "deliveryDate": null,
+      "orderStatus": "payée",
+      "customer": {
+        "customerId": "C41",
+        "name" : "Sylvain Fokan",
+        "customerType": {
+          "customerTypeId": "T1",
+          "name" : "Autres"
+        }
+      },
+      "totalPrice": 1234,
+      "totalPriceWithVAT": 12345
+    },
+    {
+      "saleId": "2",
+      "orderDate": "2022-02-21",
+      "deliveryDate": null,
+      "orderStatus": "payée",
+      "customer": {
+        "customerId": "C41",
+        "name" : "Sylvain Fokan",
+        "customerType": {
+          "customerTypeId": "T1",
+          "name" : "Autres"
+        }
+      },
+      "totalPrice": 1234,
+      "totalPriceWithVAT": 12345
+    }
+  ],
+
+  "salesDetailsJson":
+
+    {
+      "SaleId": "1",
+      "orderDate": "2022-02-21",
+      "deliveryDate": "2022-02-21",
+      "payementDate": null,
+      "creationDate" : "2022-02-21",
+      "orderStatus": "en attente",
+      "deliveryFee" : null,
+      "totalPrice": "12000",
+      "totalPriceWithVAT": "14000",
+      "customer": {
+        "customerId": "C44",
+        "name": "Denis Colin",
+        "addressStreetName": "Rue de Unity",
+        "addressStreetNumber": "04",
+        "addressBoxNumber": "1",
+        "addressZipCode": "1234",
+        "addressCity": "Charleroi-Ville",
+        "phoneNumber": "012/34.56.78",
+        "email": "randommail@fakeemail.comlooooooog",
+        "vatNumber": "VAT1234"
+      },
+      "saleLines" : [
+        {
+          "SaleLineId" : "SL1234",
+          "productQuantity": 10,
+          "unitPriceEXVAT": 1480,
+          "product" : {
+            "productId": "P01",
+            "reference": "SFB1234",
+            "productLabel": {
+              "idProductLabel": "PLabel01",
+              "code": "FBS",
+              "label" : "Farine blanche small sac 2.5kg"
+            }
+          }
+        },
+        {
+          "SaleLineId" : "SL1235",
+          "productQuantity": 100,
+          "unitPriceEXVAT": 1251,
+          "product" : {
+            "productId": "P02",
+            "reference": "SFB1534",
+            "productLabel": {
+              "idProductLabel": "PLabel02",
+              "code": "FBS",
+              "label" : "Farine blanche small sac 2.5kg"
+            }
+          }
+        },
+        {
+          "SaleLineId" : "SL1236",
+          "productQuantity": 50,
+          "unitPriceEXVAT": 12015,
+          "product" : {
+            "productId": "P03",
+            "reference": "SFB1536",
+            "productLabel": {
+              "idProductLabel": "PLabel03",
+              "code": "FBS",
+              "label" : "Farine blanche small sac 25kg"
+            }
+          }
+        },
+        {
+          "SaleLineId" : "SL1237",
+          "productQuantity": 30,
+          "unitPriceEXVAT": 12015,
+          "product" : {
+            "productId": "P03",
+            "reference": "SFB1537",
+            "productLabel": {
+              "idProductLabel": "PLabel04",
+              "code": "FBS",
+              "label" : "Farine blanche small sac 25kg"
+            }
+          }
+        }
+      ]
+    },
+  "customerList": [
+    {
+      "customerId": "C44",
+      "name": "Denis Colin"
+    },
+    {
+      "customerId": "C43",
+      "name": "Sylvain Fokan"
+    },
+    {
+      "customerId": "C42",
+      "name": "Khun Ly"
+    },
+    {
+      "customerId": "C41",
+      "name": "Benjamin Dubray"
+    }
+  ],
+  "saleToUpdate":{
+    "name" : "sale1"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Laura Lahon",
+      "password": "test1234=",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Gérard Rixhon",
+      "password": "test1234=",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "name": "Philippe Noirhomme",
+      "password": "test1234=",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "name": "Françoise de Laminne",
+      "password": "test1234=",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "name": "François Lejeune",
+      "password": "test1234=",
+      "role": "user"
+    },
+    {
+      "id": 6,
+      "name": "Pascal Dodion",
+      "password": "test1234=",
+      "role": "user"
+    }
+  ]
+}

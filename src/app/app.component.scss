@@ -1,0 +1,23 @@
+// BANNIERE //
+.banniere {
+    background-color: #009A8F;
+    width: fill;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titreBelgrains {
+    width: 30vh;
+}
+
+
+ion-icon {
+    font-size: 5vh;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}

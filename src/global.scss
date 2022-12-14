@@ -1,3 +1,19 @@
+// POLICE //
+@font-face {
+    font-family: 'AmaticSC';
+    src: url('./assets/fonts/AmaticSC/AmaticSC-Regular.ttf') format('OpenType');
+  };
+
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url('./assets/fonts/Ubuntu-Regular.ttf') format('OpenType');
+  }
+
+  :not(h2){
+    font-family: 'Ubuntu';
+  }
+
+
 /*
  * App Global CSS
  * ----------------------------------------------------------------------------

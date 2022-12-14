@@ -1,0 +1,56 @@
+// PAGE //
+.content-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+// MENU //
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+ion-accordion-group {
+  width: 70%;
+  padding-top: 3vh;
+}
+
+ion-accordion {
+  padding-top: 3vh;
+}
+
+// BOUTONS //
+ion-button {
+  height: 10vh;
+  font-size: 3vh;
+  --border-color: black;
+  --border-style: solid;
+  --border-width: 0.2vh;
+}
+
+// OPTIONS PRINCIPALES //
+.options {
+  --color: black;
+  --background: #E3C06F;
+  --background-activated: #E3C06F;
+  font-weight: bold;
+  display: block;
+}
+
+// OPTIONS SECONDAIRES //
+.sousOptions {
+  --color: black;
+  --background: #ddcdaca9;
+  --background-activated: #ddcdaca9;
+  display: block;
+  padding-top: 2vh;
+}
+
+// LOGO //
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 20%;
+}

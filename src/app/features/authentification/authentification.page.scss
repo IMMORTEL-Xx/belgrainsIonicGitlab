@@ -1,0 +1,73 @@
+// PAGE //
+.content-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+// BIENVENUE //
+.titreBienvenue {
+    font-family: var(--font-title);
+    font-weight: bold;
+    font-size: 6vh;
+    margin-top: 5vh;
+    text-align: center;
+    line-height: normal;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+}
+
+// FORMULAIRE //
+.formAuth {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+ion-select, ion-input {
+    height: 10vh;
+    width: 25vh;
+}
+
+ion-select, ion-label {
+    text-align: center;
+    --placeholder-opacity: 100%;
+}
+
+ion-input {
+    text-align: center;
+}
+
+ion-item {
+    --background: #E0DFDF;
+    margin-bottom: 3vh;
+    --border-radius: 2vh;
+}
+
+// CONNEXION //
+.divConnexion {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+.buttonConnexion {
+    --color: white;
+    --background: #D25501;
+    --background-activated: #D25501;
+    width: 15vh;
+    height: 5vh;
+}
+
+.wrongPwd{
+    text-align: center;
+}
+
+// LOGO //
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    padding-bottom: 5vh;
+  }

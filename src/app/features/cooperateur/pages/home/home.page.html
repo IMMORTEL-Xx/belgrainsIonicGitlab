@@ -1,0 +1,47 @@
+<ion-content>
+  <div class="content-inner">
+    
+    <!-- ACCORDEON -->
+    <div class="menu">
+      <ion-accordion-group>
+
+        <!-- COMMANDES -->
+        <ion-accordion value="Commandes">
+            <ion-button routerLink="/cooperateur/orders" class="options" slot="header" shape="round" (click)="testAPI()">
+              <ion-label>Commandes</ion-label>
+            </ion-button>
+        </ion-accordion>
+
+        <!-- STOCKS -->
+        <ion-accordion value="Stocks">
+          <!-- OPTION PRINCIPALE -->
+          <ion-button class="options" slot="header" shape="round">
+            <ion-label>Stocks</ion-label>
+          </ion-button>
+          <!-- SOUS-OPTION 1 -->
+          <ion-button routerLink="/cooperateur/stocks" class="sousOptions" slot="content" shape="round">
+            <p> Mon stock </p>
+          </ion-button>
+          <!-- SOUS-OPTION 2 -->
+          <ion-button routerLink="/cooperateur/stocks" class="sousOptions" slot="content" shape="round">
+            Dépôt
+          </ion-button>
+        </ion-accordion>
+
+        <!-- VENTES -->
+        <ion-accordion value="Ventes">
+          <ion-button routerLink="/cooperateur/sales" class="options" slot="header" shape="round">
+            <ion-label>Ventes</ion-label>
+          </ion-button>
+        </ion-accordion>
+
+      </ion-accordion-group>
+    </div>
+
+    <!-- LOGO  -->
+    <div class="logo">
+      <ion-img src="../../../assets/images/logo_belgrains.png" alt="logo_belgrains"> </ion-img>
+    </div>
+
+  </div>
+</ion-content>

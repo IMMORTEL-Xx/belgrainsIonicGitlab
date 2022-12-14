@@ -1,3 +1,25 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-header>
+
+    <!-- BANNIERE  -->
+    <div class="banniere">
+      <div *ngIf="this.isLogged">
+        <a href="javascript:history.back()">
+          <ion-icon name="arrow-undo-outline"></ion-icon>
+        </a>
+      </div>
+      <div>
+        <ion-img class="titreBelgrains" src="../../../assets/images/NomBelgrains.PNG" alt="Bel'grains"> </ion-img>
+      </div>
+      <div *ngIf="this.isLogged">
+          <ion-icon name="power-outline" (click)="deconnect()" routerLink="/authentification"></ion-icon>
+      </div>
+    </div>
+
+  </ion-header>
+
+  <ion-content>
+    <ion-router-outlet></ion-router-outlet>
+  </ion-content>
+
 </ion-app>
